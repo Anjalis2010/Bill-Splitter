@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bill Spiltter</title>
+    <link rel="stylesheet" href="style.css" >
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <main>
+        <div class="bill-input">
+            <p>Bill</p>
+            <div class="input-container">
+                <span>₹</span>
+                <input type="number">
+        </div>
+        <p>Selector Tip</p>
+        <div class="tip-container">
+            <div class="tip">5%</div>
+            <div class="tip">10%</div>
+            <div class="tip">15%</div>
+            <div class="tip">25%</div>
+            <div class="tip">50%</div>
+            <div class="tip">75%</div>
+    </div>
+    <input class="custom-tip gray-input" type="number" placeholder="Custom-Tip">
+    <p>Number of People</p>
+    <input class="Number-of-Tip gray-input" type="number" placeholder="Number-of-Tip">
+   <button class="generate-bill-btn" >Generate Bill</button>
+</div>
+        <div class="bill-output">
+        <p class="tip-amount">Tip Amount <span></span></p>
+        <p class="total">Total  <span></span></p>
+        <p class="Each-person-bill">Each Person Bill  <span></span></p>
+        <button class="reset-btn"> Reset </button>
+        </div>
+    </main>
+</body>
+</html>
